@@ -1,0 +1,8 @@
+import { CliOptions } from 'bloxd';
+
+@CliOptions()
+export class $[options_class]Options {
+
+    constructor() {}
+
+}

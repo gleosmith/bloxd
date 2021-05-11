@@ -1,0 +1,8 @@
+import { Injectable } from 'bloxd'
+
+@Injectable($[open_bracket]$[global]$[singleton]$[close_bracket])
+export class $[service_class]Service {
+
+    constructor() {}
+
+}

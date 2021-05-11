@@ -1,0 +1,29 @@
+{
+    "name": "bloxd-cli",
+    "version": "1.0.0",
+    "description": "The CLI for Bloxd, a modular framework for developing command line interfaces in TypeScript",
+    "typings": "./index",
+    "scripts": {
+        "build:prod": "cd ./../../ && npm run build:cli:prod",
+        "build": "cd ./../../ && npm run build:cli"
+    },
+    "bugs": {
+        "url": "https://github.com/gleosmith/bloxd/issues"
+    },
+    "homepage": "https://bloxd.dev/guide",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gleosmith/bloxd.git"
+    },
+    "author": "Gavin Leo-Smith <gavin@gleo-smith.co.za>",
+    "license": "MIT",
+    "keywords": [
+        "cli",
+        "command",
+        "typescript",
+        "args",
+        "parser",
+        "arguments",
+        "argv"
+    ]
+}

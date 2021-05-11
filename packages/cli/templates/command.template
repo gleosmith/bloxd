@@ -1,0 +1,12 @@
+import { CliCommand, Command } from 'bloxd';
+
+@CliCommand('$[command_name]'$[open_bracket]$[alias]$[description]$[close_bracket])
+export class $[command_class]Command implements Command {
+
+    constructor() {
+    }
+
+    async execute() {$[command_content]
+    }
+
+}

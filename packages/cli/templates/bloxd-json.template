@@ -1,0 +1,7 @@
+{
+    "outputName": "cli",
+    "srcRoot": "./src",
+    "outputDir": "./dist",
+    "tsConfig": "./tsconfig.json",
+    "packageJson": "./package.json"$[webpack]
+}

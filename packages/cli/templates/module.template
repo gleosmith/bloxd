@@ -1,0 +1,8 @@
+$[module_imports]
+
+@CliModule({$[module_metadata]})
+export class $[module_class]Module {
+
+    constructor() {}
+
+}
