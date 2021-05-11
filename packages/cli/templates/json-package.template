@@ -6,8 +6,8 @@
         "build": "bloxd build"
     },
     "devDependencies": {
-        "bloxd": "1.0.0",
-        "bloxd-cli": "1.0.0",
+        "bloxd": "1.0.6",
+        "bloxd-cli": "1.0.6",
         "circular-dependency-plugin": "^5.2.2",
         "copy-webpack-plugin": "^8.1.1",
         "terser-webpack-plugin": "^5.1.1",

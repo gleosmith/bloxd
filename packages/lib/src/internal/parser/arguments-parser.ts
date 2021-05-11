@@ -86,7 +86,7 @@ export class DefaultArgumentsParser implements ArgumentsParser {
 
                     let value: any;
                     if (arg.indexOf('=') !== -1) {
-                        value = arg.substring(arg.indexOf('='), arg.length);
+                        value = arg.substring(arg.indexOf('=') + 1, arg.length);
                         arg = arg.substring(0, arg.indexOf('='));
                     } else if (index < rawArgs.length - 1) {
                         if (!rawArgs[index + 1].startsWith('-')) {

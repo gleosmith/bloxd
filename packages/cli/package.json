@@ -1,6 +1,6 @@
 {
     "name": "bloxd-cli",
-    "version": "1.0.0",
+    "version": "1.0.6",
     "description": "The CLI for Bloxd, a modular framework for developing command line interfaces in TypeScript",
     "typings": "./index",
     "scripts": {

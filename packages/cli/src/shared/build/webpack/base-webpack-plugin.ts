@@ -70,7 +70,7 @@ export abstract class BaseWebpackPlugin implements WebpackPluginInstance {
     }
 
     error(txt: string, newLine?: boolean) {
-        process.stdout.write(`${newLine ? '\n' : ''}${this.printing.yellow('[bloxd]', true)} ${txt}`);
+        process.stdout.write(`${newLine ? '\n' : ''}${this.printing.red('[bloxd]', true)} ${txt}`);
     }
 
     private async writeMessages(errors: StatsError[], warnings: StatsError[]) {
